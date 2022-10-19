@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./img/bg-xvideos-pronto.png) fixed no-repeat;
+    background-size: 100%;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#title{
+    color: white;
+    text-align: justify;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.card-container{
+    width: 400px;
+    height: 200px;
+    margin-top: 300px;
+    background: rgba(17, 17, 17, 0.493);
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.card-container h1{
+    font-size: 35px;
+    color: white;
+}
+
+.verify-form{
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.verify-form input{
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.verify-btn button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.verify-btn button:hover{
+    background-color: rgb(117, 0, 0);
+    transition: 0.2s;
+}
